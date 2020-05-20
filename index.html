@@ -2,17 +2,35 @@
 <html lang="en">
 	<head>
 		<!-- Required meta tags -->
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 		<title>WhiteNoise</title>
-		<meta property="og:title" content="WhiteNoise">
-		<meta property="og:type" content="website"/>
-		<meta property="og:description" content="An open source platform for differential privacy in machine learning and analytics">
-		<meta property="og:image" content="images/whitenoise-meta-image.jpg">
-		<meta property="og:url" content="https://opendifferentialprivacy.github.io/">
-		<link rel="shortcut icon" type="images/x-icon" href="images/whitenoise-favicon.ico"/>
+		<meta property="og:title" content="WhiteNoise" />
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:description"
+			content="An open source platform for differential privacy in machine learning and analytics"
+		/>
+		<meta property="og:image" content="images/whitenoise-meta-image.jpg" />
+		<meta
+			property="og:url"
+			content="https://opendifferentialprivacy.github.io/"
+		/>
+		<link
+			rel="shortcut icon"
+			type="images/x-icon"
+			href="images/whitenoise-favicon.ico"
+		/>
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	</head>
 	<body>
@@ -20,13 +38,23 @@
 		<nav class="navbar navbar-expand-lg fixed-top">
 			<div class="container pt-3 pb-3">
 				<img class="img-fluid nav-logo" src="images/nav-logo.png" alt="" />
-				<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<button
+					class="navbar-toggler navbar-light"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarResponsive"
+					aria-controls="navbarResponsive"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
 					<span class="navbar-toggler-icon icon-bar"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto text-center">
 						<li class="nav-item pr-3">
-							<a class="nav-link" href="#differential-privacy">Differential Privacy</a>
+							<a class="nav-link" href="#differential-privacy"
+								>Differential Privacy</a
+							>
 						</li>
 						<li class="nav-item pr-3">
 							<a class="nav-link" href="#how-it-works">About WhiteNoise</a>
@@ -35,7 +63,11 @@
 							<a class="nav-link" href="#contribute">Contribute</a>
 						</li>
 						<li>
-							<a class="navbar-btn" href="https://github.com/opendifferentialprivacy">GitHub</a>
+							<a
+								class="navbar-btn"
+								href="https://github.com/opendifferentialprivacy"
+								>GitHub</a
+							>
 						</li>
 					</ul>
 				</div>
@@ -46,17 +78,31 @@
 		<!-- Masthead -->
 		<div class="container-fluid masthead">
 			<div class="container">
-				<div class="use-data row align-items-center pb-5 justify-content-md-center">
+				<div
+					class="use-data row align-items-center pb-5 justify-content-md-center"
+				>
 					<div class="col-sm-12 col-md-8 col-lg-6 order-lg-1 text-center px-5">
-						<img class="img-fluid" src="images/main-graphic.png" alt=""/>
+						<img class="img-fluid" src="images/main-graphic.png" alt="" />
 					</div>
 					<div class="col-sm-12 col-lg-6 order-lg-0">
-						<h1 class="text-center text-md-left">Use Data.<br>Preserve Privacy.</h1>
-						<h3 class="text-center text-md-left white pb-3">A differential privacy toolkit for analytics and machine learning</h3>
-						<p class="text-center text-md-left pb-4 alpha light">WhiteNoise uses state-of-the-art differential privacy (DP) techniques to inject noise to data, to prevent disclosure of sensitive information and manage exposure risk.</p>
+						<h1 class="text-center text-md-left">
+							Use Data.<br />Preserve Privacy.
+						</h1>
+						<h3 class="text-center text-md-left white pb-3">
+							A differential privacy toolkit for analytics and machine learning
+						</h3>
+						<p class="text-center text-md-left pb-4 alpha light">
+							WhiteNoise uses state-of-the-art differential privacy (DP)
+							techniques to inject noise to data, to prevent disclosure of
+							sensitive information and manage exposure risk.
+						</p>
 						<div class="row">
 							<div class="col-sm-12 text-center text-md-left">
-								<a class="masthead-btn text-center" href="https://github.com/opendifferentialprivacy/whitenoise-core">Get Started</a>
+								<a
+									class="masthead-btn text-center"
+									href="https://github.com/opendifferentialprivacy/whitenoise-core"
+									>Get Started</a
+								>
 							</div>
 						</div>
 					</div>
@@ -71,28 +117,61 @@
 				<div class="row text-center justify-content-md-center pb-5">
 					<div class="col-12 col-lg-4 pb-4">
 						<div class="card h-100 header-card px-5 pb-3">
-					      <div class="card-body">
-					        <img class="img-fluid mx-auto icons pb-4 icon-dark" src="images/icon-01-purple.png" alt=""/>
-					        <img class="img-fluid mx-auto icons pb-4 icon-light" src="images/icon-01-white.png" alt=""/>
-					        <p class="card-text medium">Based on the latest innovation in differential privacy research and best practices from real-world applications</p>
-					      </div>
-					    </div>
-					</div>
-					<div class="col-12 col-lg-4 pb-4">
-						<div class="card h-100 header-card px-5 pb-3">
-					      	<div class="card-body">
-								<img class="img-fluid mx-auto icons pb-4 icon-dark" src="images/icon-02-purple.png" alt=""/>
-								<img class="img-fluid mx-auto icons pb-4 icon-light" src="images/icon-02-white.png" alt=""/>
-								<p class="card-text medium">Designed for both statistical analysis and machine learning applications</p>
+							<div class="card-body">
+								<img
+									class="img-fluid mx-auto icons pb-4 icon-dark"
+									src="images/icon-01-purple.png"
+									alt=""
+								/>
+								<img
+									class="img-fluid mx-auto icons pb-4 icon-light"
+									src="images/icon-01-white.png"
+									alt=""
+								/>
+								<p class="card-text medium">
+									Based on the latest innovation in differential privacy
+									research and best practices from real-world applications
+								</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-12 col-lg-4 pb-4">
 						<div class="card h-100 header-card px-5 pb-3">
-					      	<div class="card-body">
-								<img class="img-fluid mx-auto icons pb-4 icon-dark" src="images/icon-03-purple.png" alt=""/>
-								<img class="img-fluid mx-auto icons pb-4 icon-light" src="images/icon-03-white.png" alt=""/>
-								<p class="card-text medium">Open source framework to create and test new algorithms and techniques.</p>
+							<div class="card-body">
+								<img
+									class="img-fluid mx-auto icons pb-4 icon-dark"
+									src="images/icon-02-purple.png"
+									alt=""
+								/>
+								<img
+									class="img-fluid mx-auto icons pb-4 icon-light"
+									src="images/icon-02-white.png"
+									alt=""
+								/>
+								<p class="card-text medium">
+									Designed for both statistical analysis and machine learning
+									applications
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-4 pb-4">
+						<div class="card h-100 header-card px-5 pb-3">
+							<div class="card-body">
+								<img
+									class="img-fluid mx-auto icons pb-4 icon-dark"
+									src="images/icon-03-purple.png"
+									alt=""
+								/>
+								<img
+									class="img-fluid mx-auto icons pb-4 icon-light"
+									src="images/icon-03-white.png"
+									alt=""
+								/>
+								<p class="card-text medium">
+									Open source framework to create and test new algorithms and
+									techniques.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -106,20 +185,46 @@
 			<div class="container">
 				<div class="row justify-content-lg-center">
 					<div class="col-12 text-center mb-4">
-						<h2 class="pb-4 top ">Why WhiteNoise?</h2>
+						<h2 class="pb-4 top">Why WhiteNoise?</h2>
 					</div>
-					<div class="col-md-6 col-lg-6 my-auto text-center text-md-left order-2 order-md-1">
-						<h3 class="pb-3 bold">Based on cutting-edge Differential Privacy algorithms</h3>
-						<p class="medium">Data scientists, analysts, scientific researchers and policy makers often need to analyze data that contains sensitive personal information that must remain private.</>
-						<p class="medium">Commonly-used privacy techniques are limiting and can result in leaks in sensitive information.</p>
-						<p class="medium">Differential Privacy is a technique that offers strong privacy assurances, preventing data leaks and re-identification of individuals in a dataset.</p>
+					<div
+						class="col-md-6 col-lg-6 my-auto text-center text-md-left order-2 order-md-1"
+					>
+						<h3 class="pb-3 bold">
+							Based on cutting-edge Differential Privacy algorithms
+						</h3>
+						<p class="medium">
+							Data scientists, analysts, scientific researchers and policy
+							makers often need to analyze data that contains sensitive personal
+							information that must remain private.
+						</p>
+						<p class="medium">
+							Commonly-used privacy techniques are limiting and can result in
+							leaks in sensitive information.
+						</p>
+						<p class="medium">
+							Differential Privacy is a technique that offers strong privacy
+							assurances, preventing data leaks and re-identification of
+							individuals in a dataset.
+						</p>
 					</div>
 					<div class="col-md-6 col-lg-4 pb-5 pb-md-0 order-md-2">
-						<img class="img-fluid mx-auto white-noise-icon" src="images/graphic-01.png" alt=""/>
+						<img
+							class="img-fluid mx-auto white-noise-icon"
+							src="images/graphic-01.png"
+							alt=""
+						/>
 					</div>
 					<div class="col-sm-12 col-lg-4 text-center pt-3 pb-5 order-3">
-						<a class="purple-btn mb-5" href=" https://aka.ms/whitenoisewhitepaper">Learn More</a>
-						<a href="http://privacytools.seas.harvard.edu/files/privacytools/files/pedagogical-document-dp_0.pdf"><p class="text-link">Theory Behind Differential Privacy</p></a>
+						<a
+							class="purple-btn mb-5"
+							href=" https://aka.ms/whitenoisewhitepaper"
+							>Learn More</a
+						>
+						<a
+							href="http://privacytools.seas.harvard.edu/files/privacytools/files/pedagogical-document-dp_0.pdf"
+							><p class="text-link">Theory Behind Differential Privacy</p></a
+						>
 					</div>
 				</div>
 			</div>
@@ -132,35 +237,89 @@
 				<div class="row justify-content-center">
 					<div class="col-12 col-md-5 pb-5">
 						<div class="dark-card h-100 px-5 py-4">
-							<img class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-white" src="images/icon-6.png" alt=""/>
-							<img class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-purple" src="images/icon-6-dark.png" alt=""/>
-							<h5 class="text-center text-lg-left pb-2 card-text">Flexible native runtime</h5>
-							<p class="text-center text-lg-left card-bullet">A native runtime library to generate and validate differential privacy results that can be used with C, C++, Python, R, and other languages.</p>
+							<img
+								class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-white"
+								src="images/icon-6.png"
+								alt=""
+							/>
+							<img
+								class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-purple"
+								src="images/icon-6-dark.png"
+								alt=""
+							/>
+							<h5 class="text-center text-lg-left pb-2 card-text">
+								Flexible native runtime
+							</h5>
+							<p class="text-center text-lg-left card-bullet">
+								A native runtime library to generate and validate differential
+								privacy results that can be used with C, C++, Python, R, and
+								other languages.
+							</p>
 						</div>
 					</div>
 					<div class="col-12 col-md-5 pb-5">
 						<div class="dark-card h-100 px-5 py-4">
-							<img class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-white" src="images/icon-7.png" alt=""/>
-							<img class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-purple" src="images/icon-7-dark.png" alt=""/>
-							<h5 class="text-center text-lg-left pb-2 card-text">Built-in Connectivity to Data Sources</h5>
-							<p class="text-center text-lg-left card-text card-bullet">Access data from Data Lakes, SQL Server, Postgres, Apache Spark, Apache Presto, and CSV files.</p>
+							<img
+								class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-white"
+								src="images/icon-7.png"
+								alt=""
+							/>
+							<img
+								class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-purple"
+								src="images/icon-7-dark.png"
+								alt=""
+							/>
+							<h5 class="text-center text-lg-left pb-2 card-text">
+								Built-in Connectivity to Data Sources
+							</h5>
+							<p class="text-center text-lg-left card-text card-bullet">
+								Access data from Data Lakes, SQL Server, Postgres, Apache Spark,
+								Apache Presto, and CSV files.
+							</p>
 						</div>
 					</div>
 					<div class="w-100"></div>
 					<div class="col-12 col-md-5 pb-5">
 						<div class="dark-card h-100 px-5 py-4">
-							<img class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-white" src="images/icon-8.png" alt=""/>
-							<img class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-purple" src="images/icon-8-dark.png" alt=""/>
-							<h5 class="text-center text-lg-left pb-2 card-text">Granular Privacy Risk Controls</h5>
-							<p class="text-center text-lg-left card-text card-bullet">Track privacy risk by managing multiple requests on data. Use privacy budgets to control the number of queries permitted by different users.</p>
+							<img
+								class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-white"
+								src="images/icon-8.png"
+								alt=""
+							/>
+							<img
+								class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-purple"
+								src="images/icon-8-dark.png"
+								alt=""
+							/>
+							<h5 class="text-center text-lg-left pb-2 card-text">
+								Granular Privacy Risk Controls
+							</h5>
+							<p class="text-center text-lg-left card-text card-bullet">
+								Track privacy risk by managing multiple requests on data. Use
+								privacy budgets to control the number of queries permitted by
+								different users.
+							</p>
 						</div>
 					</div>
 					<div class="col-12 col-md-5 pb-5">
 						<div class="dark-card h-100 px-5 py-4">
-							<img class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-white" src="images/icon-9.png" alt=""/>
-							<img class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-purple" src="images/icon-9-dark.png" alt=""/>
-							<h5 class="text-center text-lg-left pb-2 card-text">Privacy Loss Tester</h5>
-							<p class="text-center text-lg-left card-text card-bullet">An evaluator to automatically stress test existing differential privacy algorithms.</p>
+							<img
+								class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-white"
+								src="images/icon-9.png"
+								alt=""
+							/>
+							<img
+								class="img-fluid mx-auto mx-lg-0 native-runtime-library-icons mb-4 icon-purple"
+								src="images/icon-9-dark.png"
+								alt=""
+							/>
+							<h5 class="text-center text-lg-left pb-2 card-text">
+								Privacy Loss Tester
+							</h5>
+							<p class="text-center text-lg-left card-text card-bullet">
+								An evaluator to automatically stress test existing differential
+								privacy algorithms.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -174,45 +333,86 @@
 				<div class="row justify-content-lg-center">
 					<div class="col-12 text-center">
 						<h2 class="pb-3 top pt-5">How It Works</h2>
-						<p class="medium">WhiteNoise is designed to be a layer between queries and data systems to protect sensitive data.</p>
+						<p class="medium">
+							WhiteNoise is designed to be a layer between queries and data
+							systems to protect sensitive data.
+						</p>
 					</div>
 				</div>
 				<div class="row justify-content-lg-center">
 					<div class="col-12 col-lg-6 text-center">
-						<img class="img-fluid mx-auto mb-4" src="images/how-it-works-diagram.png" alt=""/>
+						<img
+							class="img-fluid mx-auto mb-4"
+							src="images/how-it-works-diagram.png"
+							alt=""
+						/>
 					</div>
 					<div class="col-12 col-lg-6 text-center noise-02">
-						<img class="img-fluid" src="images/noise-02.png" alt=""/>
+						<img class="img-fluid" src="images/noise-02.png" alt="" />
 					</div>
 					<div class="col-12 text-center">
-						<p class="medium pb-4 pt-3">When a user queries the data or trains a model, the WhiteNoise system:</p>
+						<p class="medium pb-4 pt-3">
+							When a user queries the data or trains a model, the WhiteNoise
+							system:
+						</p>
 					</div>
 				</div>
 				<div class="row justify-content-lg-center">
 					<div class="col-12 col-lg-3 pb-4">
 						<div class="card h-100 header-card">
-					      	<div class="card-body">
-								<img class="img-fluid mx-auto white-noise-icons mb-3 mt-2 icon-dark" src="images/number-01.png" alt=""/>
-								<img class="img-fluid mx-auto white-noise-icons mb-3 mt-2 icon-light" src="images/number-01-light.png" alt=""/>
-								<p class="text-center card-text px-3 medium">Adds statistical noise to the results,</p>
+							<div class="card-body">
+								<img
+									class="img-fluid mx-auto white-noise-icons mb-3 mt-2 icon-dark"
+									src="images/number-01.png"
+									alt=""
+								/>
+								<img
+									class="img-fluid mx-auto white-noise-icons mb-3 mt-2 icon-light"
+									src="images/number-01-light.png"
+									alt=""
+								/>
+								<p class="text-center card-text px-3 medium">
+									Adds statistical noise to the results,
+								</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-12 col-lg-3 pb-4">
 						<div class="card h-100 header-card">
-					      	<div class="card-body">
-								<img class="img-fluid mx-auto white-noise-icons mb-3 mt-2 icon-dark" src="images/number-02.png" alt=""/>
-								<img class="img-fluid mx-auto white-noise-icons mb-3 mt-2 icon-light" src="images/number-02-light.png" alt=""/>
-								<p class="text-center card-text px-3 medium">Calculates the privacy risk metric or information budget, used by the query,</p>
+							<div class="card-body">
+								<img
+									class="img-fluid mx-auto white-noise-icons mb-3 mt-2 icon-dark"
+									src="images/number-02.png"
+									alt=""
+								/>
+								<img
+									class="img-fluid mx-auto white-noise-icons mb-3 mt-2 icon-light"
+									src="images/number-02-light.png"
+									alt=""
+								/>
+								<p class="text-center card-text px-3 medium">
+									Calculates the privacy risk metric or information budget, used
+									by the query,
+								</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-12 col-lg-3 pb-4">
 						<div class="card h-100 header-card">
-					      	<div class="card-body">
-								<img class="img-fluid mx-auto white-noise-icons mb-3 mt-2 icon-dark" src="images/number-03.png" alt=""/>
-								<img class="img-fluid mx-auto white-noise-icons mb-3 mt-2 icon-light" src="images/number-03-light.png" alt=""/>
-								<p class="text-center card-text px-3 medium">Subtracts from the remaining budget to limit further queries.</p>
+							<div class="card-body">
+								<img
+									class="img-fluid mx-auto white-noise-icons mb-3 mt-2 icon-dark"
+									src="images/number-03.png"
+									alt=""
+								/>
+								<img
+									class="img-fluid mx-auto white-noise-icons mb-3 mt-2 icon-light"
+									src="images/number-03-light.png"
+									alt=""
+								/>
+								<p class="text-center card-text px-3 medium">
+									Subtracts from the remaining budget to limit further queries.
+								</p>
 							</div>
 						</div>
 					</div>
@@ -232,30 +432,69 @@
 
 				<div class="row justify-content-lg-center preserving-privacy-1">
 					<div class="col-md-6 col-lg-7 order-md-2 pb-5 pb-md-0">
-						<img class="img-fluid mx-auto dashboard-desktop" src="images/dashboard-03.png" alt=""/>
-						<img class="img-fluid mx-auto dashboard-mobile" src="images/dashboard-03-mobile.png" alt=""/>
+						<img
+							class="img-fluid mx-auto dashboard-desktop"
+							src="images/dashboard-03.png"
+							alt=""
+						/>
+						<img
+							class="img-fluid mx-auto dashboard-mobile"
+							src="images/dashboard-03-mobile.png"
+							alt=""
+						/>
 					</div>
 					<div class="col-md-6 col-lg-4 offset-lg-1 order-md-1 pr-md-5">
-						<h4 class="text-center text-lg-left pb-2">Differential Privacy for Statistical Analysis</h4>
-						<li class="img-fluid check-icon pb-3 dark">In-built support for commonly used mathematical and statistical operators</li>
-						<li class="img-fluid check-icon pb-4 dark">Use cases span healthcare, sensitive socio-economic data and more</li>
+						<h4 class="text-center text-lg-left pb-2">
+							Differential Privacy for Statistical Analysis
+						</h4>
+						<li class="img-fluid check-icon pb-3 dark">
+							In-built support for commonly used mathematical and statistical
+							operators
+						</li>
+						<li class="img-fluid check-icon pb-4 dark">
+							Use cases span healthcare, sensitive socio-economic data and more
+						</li>
 						<div class="text-center text-md-left">
-							<a class="masthead-btn text-center" href="https://github.com/opendifferentialprivacy/whitenoise-samples/blob/master/README.md">Examples</a>
+							<a
+								class="masthead-btn text-center"
+								href="https://github.com/opendifferentialprivacy/whitenoise-samples/blob/master/README.md"
+								>Examples</a
+							>
 						</div>
 					</div>
 				</div>
 
 				<div class="row justify-content-lg-center preserving-privacy-2">
 					<div class="col-md-6 col-lg-7 pb-5 pb-md-0">
-						<img class="img-fluid mx-auto dashboard-desktop" src="images/dashboard-04.png" alt=""/>
-						<img class="img-fluid mx-auto dashboard-mobile" src="images/dashboard-04-mobile.png" alt=""/>
+						<img
+							class="img-fluid mx-auto dashboard-desktop"
+							src="images/dashboard-04.png"
+							alt=""
+						/>
+						<img
+							class="img-fluid mx-auto dashboard-mobile"
+							src="images/dashboard-04-mobile.png"
+							alt=""
+						/>
 					</div>
 					<div class="col-md-6 col-lg-4 pl-md-5">
-						<h4 class="text-center text-lg-left">Differential Privacy in Machine Learning</h4>
-						<li class="img-fluid check-icon pb-3 dark">Built-in support for training simple machine learning models like linear and logistic regression</li>
-						<li class="img-fluid check-icon pb-4 dark">Compatible with open-source training libraries such TensorFlow Privacy</li>
+						<h4 class="text-center text-lg-left">
+							Differential Privacy in Machine Learning
+						</h4>
+						<li class="img-fluid check-icon pb-3 dark">
+							Built-in support for training simple machine learning models like
+							linear and logistic regression
+						</li>
+						<li class="img-fluid check-icon pb-4 dark">
+							Compatible with open-source training libraries such TensorFlow
+							Privacy
+						</li>
 						<div class="text-center text-md-left">
-							<a class="masthead-btn text-center" href="https://github.com/opendifferentialprivacy/whitenoise-samples/blob/master/README.md">Examples</a>
+							<a
+								class="masthead-btn text-center"
+								href="https://github.com/opendifferentialprivacy/whitenoise-samples/blob/master/README.md"
+								>Examples</a
+							>
 						</div>
 					</div>
 				</div>
@@ -270,7 +509,11 @@
 					<div class="col-sm-12 col-lg-4 text-center">
 						<h1 class="pb-3">Getting Started</h1>
 						<p class="pb-3">Build and deploy easily with WhiteNoise!</p>
-						<a class="white-btn" href="https://github.com/opendifferentialprivacy/whitenoise-core">Install WhiteNoise</a>
+						<a
+							class="white-btn"
+							href="https://github.com/opendifferentialprivacy/whitenoise-core"
+							>Install WhiteNoise</a
+						>
 					</div>
 				</div>
 			</div>
@@ -283,8 +526,16 @@
 				<div class="row justify-content-lg-center pb-5 pt-5">
 					<div class="col-sm-12 col-lg-6 text-center mb-5">
 						<h2 class="pb-4">Contribute to WhiteNoise</h2>
-						<p class="medium pb-4">WhiteNoise is designed to be a community project. We encourage you to join the effort and contribute feedback, algorithms, ideas and more, so we can evolve the toolkit together!</p>
-						<a class="purple-btn mb-2" href="https://github.com/opendifferentialprivacy/whitenoise-system/blob/master/contributing.rst">Contribute</a>
+						<p class="medium pb-4">
+							WhiteNoise is designed to be a community project. We encourage you
+							to join the effort and contribute feedback, algorithms, ideas and
+							more, so we can evolve the toolkit together!
+						</p>
+						<a
+							class="purple-btn mb-2"
+							href="https://github.com/opendifferentialprivacy/whitenoise-system/blob/master/contributing.rst"
+							>Contribute</a
+						>
 					</div>
 				</div>
 			</div>
@@ -299,13 +550,13 @@
 						<h2 class="pb-5">Key Contributors</h2>
 					</div>
 					<div class="col-7 col-md-2 my-auto text-center logo-1 pb-5">
-						<img class="img-fluid mx-auto" src="images/logo-01.png" alt=""/>
+						<img class="img-fluid mx-auto" src="images/logo-01.png" alt="" />
 					</div>
 					<div class="col-7 col-md-2 my-auto text-center logo-2 pb-5">
-						<img class="img-fluid mx-auto" src="images/logo-02.png" alt=""/>
+						<img class="img-fluid mx-auto" src="images/logo-02.png" alt="" />
 					</div>
 					<div class="col-7 col-md-2 my-auto text-center logo-3 pb-5">
-						<img class="img-fluid mx-auto" src="images/logo-03.png" alt=""/>
+						<img class="img-fluid mx-auto" src="images/logo-03.png" alt="" />
 					</div>
 				</div>
 
@@ -313,17 +564,21 @@
 					<div class="col-12 text-center">
 						<p class="medium">With support from</p>
 					</div>
-					<div class="col-7 col-md-2 my-auto text-center logo-4 pb-5">
+					<!-- <div class="col-7 col-md-2 my-auto text-center logo-4 pb-5">
 						<img class="img-fluid mx-auto" src="images/logo-04.png" alt=""/>
-					</div>
+					</div> -->
 					<div class="col-7 col-md-2 my-auto text-center logo-5 pb-5">
-						<img class="img-fluid mx-auto" src="images/logo-05.png" alt=""/>
+						<img class="img-fluid mx-auto" src="images/logo-05.png" alt="" />
 					</div>
 					<div class="col-8 col-md-2 my-auto text-center logo-6 pb-4 pb-md-5">
-						<img class="img-fluid mx-auto" src="images/logo-06.png" alt=""/>
+						<img class="img-fluid mx-auto" src="images/logo-06.png" alt="" />
 					</div>
 					<div class="col-5 col-md-2 my-auto text-center logo-7 pb-5">
-						<img class="img-fluid mx-auto logo-7-icon" src="images/logo-07.png" alt=""/>
+						<img
+							class="img-fluid mx-auto logo-7-icon"
+							src="images/logo-07.png"
+							alt=""
+						/>
 					</div>
 				</div>
 			</div>
@@ -334,23 +589,43 @@
 		<div class="container-fluid gradient-footer footer">
 			<div class="container">
 				<div class="row pt-lg-5 pb-5">
-					<div class="col-12 col-lg-2 d-flex align-items-center justify-content-md-start flex-column flex-md-row pt-4">
-						<img class="img-fluid mx-auto footer-logo" src="images/footer-logo.png" alt=""/>
+					<div
+						class="col-12 col-lg-2 d-flex align-items-center justify-content-md-start flex-column flex-md-row pt-4"
+					>
+						<img
+							class="img-fluid mx-auto footer-logo"
+							src="images/footer-logo.png"
+							alt=""
+						/>
 					</div>
 					<div class="col-12 col-lg-4 text-center text-lg-left pt-4 my-auto">
-						<p class="copyright">Copyright © 2020 Microsoft. All rights reserved.</p>
+						<p class="copyright">
+							Copyright © 2020 Microsoft. All rights reserved.
+						</p>
 					</div>
-					<div class="col-12 col-lg-6 d-flex align-items-center justify-content-md-center flex-column flex-md-row">
+					<div
+						class="col-12 col-lg-6 d-flex align-items-center justify-content-md-center flex-column flex-md-row"
+					>
 						<div class="mr-md-3">
-							<a class="nav-link" href="https://aka.ms/whitenoisewhitepaper"><p class="mb-md-0">About WhiteNoise</p></a>
+							<a class="nav-link" href="https://aka.ms/whitenoisewhitepaper"
+								><p class="mb-md-0">About WhiteNoise</p></a
+							>
 						</div>
 						<div class="mr-md-3">
-							<a class="nav-link" href="http://opendp.io/"><p class="mb-md-0">About Open DP</p></a>
+							<a class="nav-link" href="http://opendp.io/"
+								><p class="mb-md-0">About Open DP</p></a
+							>
 						</div>
 						<div class="mr-md-3">
-							<a class="nav-link" href="mailto:whitenoise@opendp.io"><p class="mb-md-0">Contact Us</p></a>
+							<a class="nav-link" href="mailto:whitenoise@opendp.io"
+								><p class="mb-md-0">Contact Us</p></a
+							>
 						</div>
-						<a class="footer-btn-transparent text-center" href="https://github.com/opendifferentialprivacy">GitHub</a>
+						<a
+							class="footer-btn-transparent text-center"
+							href="https://github.com/opendifferentialprivacy"
+							>GitHub</a
+						>
 					</div>
 				</div>
 			</div>
@@ -358,9 +633,21 @@
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+		></script>
 		<script src="script.js"></script>
 	</body>
 </html>
